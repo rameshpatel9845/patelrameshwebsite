@@ -1,0 +1,165 @@
+
+@font-face{
+  src: url("fonts/robot-black.ttf");
+  font-family: black;
+  src: url("fonts/Montserrat-regular.ttf");
+  font-family: regular;
+  src: url("fonts/Montserrat-bold.ttf");
+  font-family: bold;
+  src: url("fonts/Montserrat-thin.ttf");
+  font-family: thin;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ 	background-color:#013B6E;
+  
+}
+
+.logo_section{
+  color:white;
+  border: 4px solid white;
+  border-radius: 5px;
+  display: flex;
+  margin: 20px;
+  padding: 9px;
+  width: 140px;
+}
+.line{
+  font-size: 75px;
+  letter-spacing: -30px;
+  margin-top: -12px;
+  margin-left: -20px;
+}
+.logo_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 0px;
+  margin-left: 20px;
+  
+}
+.logo_text a{
+  color:white;
+  text-decoration: none;
+}
+.logo_text1{
+  font-family: black;
+}
+.logo_text2{
+  font-size: 22px;
+  font-family: thin;
+  margin-top:33px;
+  letter-spacing: -1px;
+  
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar{
+  margin-right: 20px;
+}
+.navbar ol{
+  display: flex;
+  margin-top: 56px;
+  
+}
+.navbar ol li{
+  list-style-type: none;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+.navbar ol li:hover{
+  background-color: white;
+  border: 2px solid black;
+}
+.navbar ol li a:hover{
+  color: black;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+.color{
+  color: white;
+}
+
+.height{
+  height: 35px;
+}
+
+#flex-box{
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading1{
+  font-family: black;
+  font-size: 40px;
+}
+.heading2{
+  font-family: regular;
+  font-size: 36px;
+}
+.sub-heading{
+  font-family: thin;
+  font-size: 24px;
+}
+.why-us{
+  font-family: bold;
+  margin-top: 40px;
+  font-size: 14px;
+  margin-left: 18px;
+}
+.reason{
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.reason ul li{
+  font-size: 18px;
+}
+.discount-offer{
+  border: 2px solid white;
+  font-family: thin;
+  font-size: 26px;
+  margin-top: 34px;
+  padding: 6px 10px;
+  width: 420px;
+}
+.discount-offer span{
+  font-family: bold;
+}
+.online-learning{
+  margin-top: 10px;
+}
+.social-icon{
+  margin-top: 40px;
+}
+.social-icon a img {
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 23px 0 0;
+}
+.facebook{
+  margin-left: 0;
+}
+.online-learning img{
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+}
+.book{
+  margin-left: 85%;
+}
+.book img{
+  margin-top: 16px;
+  height: 44px;
+  width: 44px;
+}
